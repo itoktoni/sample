@@ -1,0 +1,4 @@
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home/u7136434/public_html/apps/demo/
+        - /bin cp * $DEPLOYPATH #copy all from root 
